@@ -131,10 +131,10 @@ export const cvData: CVData = {
       logo: LogoIconInverse,
       isCurrentPosition: true,
       description: [
-        "Built and maintained full-scale design systems from scratch for a broad range of clients, spanning B2B and B2C industries, and adapted them for both early-stage startups and enterprise-scale needs",
-        "Delivered end-to-end product design solutions — from research and UX strategy through to interface design — tailored to diverse digital platforms",
-        "Acted as a strategic partner in client engagements, aligning design decisions with product goals and scaling consistent user experiences across teams",
-        "Collaborated cross-functionally to ensure smooth integration between design and development, championing system coherence and usability at every stage"
+        "Integrated AI deeply into my design workflow using a full AI design tech stack - Figma + Make, Cursor, and ChatGPT — to accelerate prototyping, systemization, and handoff.",
+        "Built functional, interactive interface prototypes by connecting Figma designs to Figma Make and Cursor, enabling rapid iteration, automated component generation, and more efficient design–dev collaboration.",
+        "Built and maintained full-scale design systems from scratch for a broad range of clients, spanning B2B and B2C industries, and adapted them for both early-stage startups and enterprise-scale needs.",
+        "Delivered end-to-end product design solutions — from research and UX strategy through to interface design — tailored to diverse digital platforms.",
       ]
     },
     {

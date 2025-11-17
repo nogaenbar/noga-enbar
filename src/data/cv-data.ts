@@ -208,7 +208,7 @@ export const cvData: CVData = {
     }
   ],
   tools: [
-    { name: "Figma", description: "UI Design, prototyping", logo: imgLogo, category: "design" },
+    { name: "Figma", description: "UI Design, prototyping Figma make and AI workflows", logo: imgLogo, category: "design" },
     { name: "Framer", description: "Website builder", logo: LogoIconFramer, category: "design" },
     { name: "Builder.io", description: "AI based visual development platform", logo: LogoIconBuilderIo, category: "design" },
     { name: "Token Studio", description: "Platform for organizing, updating, and sharing design tokens", logo: LogoIconTokenStudio, category: "design" },

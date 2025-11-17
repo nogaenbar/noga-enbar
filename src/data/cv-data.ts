@@ -66,7 +66,7 @@ export interface CVData {
     name: string;
     description: string;
     logo: string | React.ComponentType;
-    category: 'design' | 'research' | 'ai' | 'management';
+    category: 'design' | 'research' | 'ai' | 'management' | 'development';
   }[];
   education: {
     institution: string;
@@ -213,6 +213,7 @@ export const cvData: CVData = {
     { name: "Token Studio", description: "Platform for organizing, updating, and sharing design tokens", logo: LogoIconTokenStudio, category: "design" },
     { name: "Cursor", description: "AI-powered code editor", logo: imgCursorLogo, category: "ai" },
     { name: "Builder.io", description: "AI based visual development platform", logo: LogoIconBuilderIo, category: "design" },
+    { name: "Github", description: "Version control and collaboration", logo: "", category: "development" },
     { name: "ChatGPT", description: "AI Driven Copy-write & Design", logo: imgImage19, category: "ai" },
     { name: "Midjourney", description: "AI Image generation", logo: imgImage24, category: "ai" },
     { name: "Framer", description: "Website builder", logo: LogoIconFramer, category: "design" },

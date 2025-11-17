@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrench, Search, Zap, Settings } from "lucide-react";
+import { Wrench, Search, Zap, Settings, Code } from "lucide-react";
 import { CVData } from "../data/cv-data";
 
 interface CVToolsProps {
@@ -11,7 +11,8 @@ export function CVTools({ data }: CVToolsProps) {
     design: { icon: <Wrench className="w-5 h-5" />, label: "Design", color: "purple" },
     research: { icon: <Search className="w-5 h-5" />, label: "Research", color: "blue" },
     ai: { icon: <Zap className="w-5 h-5" />, label: "AI Tools", color: "green" },
-    management: { icon: <Settings className="w-5 h-5" />, label: "Management", color: "orange" }
+    management: { icon: <Settings className="w-5 h-5" />, label: "Management", color: "orange" },
+    development: { icon: <Code className="w-5 h-5" />, label: "Development", color: "blue" }
   } as const;
 
   const groupedTools = data.reduce((acc, tool) => {

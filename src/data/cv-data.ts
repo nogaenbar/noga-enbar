@@ -217,8 +217,7 @@ export const cvData: CVData = {
     { name: "Github", description: "Version control and collaboration", logo: imgGithubLogo, category: "development" },
     { name: "ChatGPT", description: "AI Driven Copy-write & Design", logo: imgImage19, category: "ai" },
     { name: "Midjourney", description: "AI Image generation", logo: imgImage24, category: "ai" },
-    { name: "Framer", description: "Website builder", logo: LogoIconFramer, category: "design" },
-    { name: "Maze", description: "User Testing", logo: imgImage17, category: "research" }
+    { name: "Framer", description: "Website builder", logo: LogoIconFramer, category: "design" }
   ],
   education: [
     { institution: "muse case labs GmbH", degree: "Advanced design systems course", period: "May 2023", logo: imgImage9 },

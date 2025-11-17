@@ -1,7 +1,7 @@
 
 # Interactive CV Application
 
-This is a code bundle for Interactive CV Application. The original project is available at https://www.figma.com/design/cPTvtcRLK7y6MnXHqmUoFc/Interactive-CV-Application.
+An interactive, modern CV application built with React, TypeScript, and Tailwind CSS. The original design is from [Figma](https://www.figma.com/design/cPTvtcRLK7y6MnXHqmUoFc/Interactive-CV-Application).
 
 ## 🚀 Live Demo
 

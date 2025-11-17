@@ -46,7 +46,8 @@ interface ToolCardProps {
 function ToolCard({ tool, index }: ToolCardProps) {
   const renderLogo = () => {
     try {
-      if (typeof tool.logo === 'string') {
+      // Handle string URLs (imported images)
+      if (typeof tool.logo === 'string' && tool.logo) {
         return (
           <img
             src={tool.logo}
@@ -58,11 +59,21 @@ function ToolCard({ tool, index }: ToolCardProps) {
             }}
           />
         );
-      } else {
-        const LogoComponent = tool.logo;
+      } 
+      // Handle React components
+      else if (tool.logo && typeof tool.logo !== 'string') {
+        const LogoComponent = tool.logo as React.ComponentType;
         return (
           <div className="w-10 h-10 flex items-center justify-center">
             <LogoComponent />
+          </div>
+        );
+      }
+      // Fallback for empty or missing logos
+      else {
+        return (
+          <div className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-gray-600 rounded">
+            <span className="text-xs text-gray-500">{tool.name.charAt(0)}</span>
           </div>
         );
       }

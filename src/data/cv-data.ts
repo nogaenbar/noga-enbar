@@ -17,6 +17,7 @@ import imgImage19 from "figma:asset/fbb1c38ed169aa78ef982cf60f1d341a500f7b3a.png
 import imgImage20 from "figma:asset/ac2bc2172c056e135f5dc5acb30285cf288cd1d7.png";
 import imgImage24 from "figma:asset/eecbff5705ec05eaa1fccb7222d3de2c5bb04dc8.png";
 import imgCursorLogo from "../assets/cursor-logo-icon-freelogovectors.net_.png";
+import imgGithubLogo from "../assets/github-logo-png_seeklogo-304612.png";
 
 // Import logo components
 import LogoIconInverse from "../imports/LogoIconInverse";
@@ -213,7 +214,7 @@ export const cvData: CVData = {
     { name: "Token Studio", description: "Platform for organizing, updating, and sharing design tokens", logo: LogoIconTokenStudio, category: "design" },
     { name: "Cursor", description: "AI-powered code editor", logo: imgCursorLogo, category: "ai" },
     { name: "Builder.io", description: "AI based visual development platform", logo: LogoIconBuilderIo, category: "design" },
-    { name: "Github", description: "Version control and collaboration", logo: "", category: "development" },
+    { name: "Github", description: "Version control and collaboration", logo: imgGithubLogo, category: "development" },
     { name: "ChatGPT", description: "AI Driven Copy-write & Design", logo: imgImage19, category: "ai" },
     { name: "Midjourney", description: "AI Image generation", logo: imgImage24, category: "ai" },
     { name: "Framer", description: "Website builder", logo: LogoIconFramer, category: "design" },
